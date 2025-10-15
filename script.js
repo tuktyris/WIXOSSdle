@@ -6,7 +6,7 @@ console.log(today);
 
 fetch('./cards.json')
 	.then(results => results.json())
-	.then(console.log);
+	//.then(console.log);
 
 
 function mulberry32(seed) {
@@ -19,4 +19,5 @@ function mulberry32(seed) {
 	value = Math.floor(value * 2000);
     return value;
   }
+
 
